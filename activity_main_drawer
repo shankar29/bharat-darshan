@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Search"
+
+            android:title="Search" />
+        <item
+            android:id="@+id/add"
+
+            android:title="Add" />
+        <item
+            android:id="@+id/edit"
+
+            android:title="Edit" />
+        <item
+            android:id="@+id/View"
+
+            android:title="View" />
+        <item
+            android:id="@+id/report"
+
+            android:title="Report" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Social"
+
+                android:title="Social" />
+            <item
+                android:id="@+id/Rateapp"
+
+                android:title="Rate-Us" />
+            <item
+                android:id="@+id/Contactus"
+
+                android:title="Contact-Us" />
+        </menu>
+    </item>
+
+</menu>
